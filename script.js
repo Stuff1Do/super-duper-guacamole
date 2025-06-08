@@ -1,6 +1,6 @@
-const input = document.querySelector('.input-grid');
+const input = document.querySelector('.customize');
 const divContainer = document.querySelector('.div-container');
-
+const resetButton = document.querySelector('.reset');
 
 let gridSize = 0;
 let divs=[];
@@ -13,6 +13,11 @@ input.addEventListener('click', ()=>{
     }
     clearCanvas();
     createGrid(gridSize);
+})
+
+resetButton.addEventListener('click', ()=>{
+    gridSize = 0;
+    clearCanvas();
 })
 
 function clearCanvas(){
