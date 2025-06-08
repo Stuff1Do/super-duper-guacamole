@@ -1,0 +1,39 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: hsla(210deg, 38%, 15%, 0.85);
+}
+
+.div-container{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    border: 30px solid  #e6b4b4;
+    background-color: lightgray;
+    border-radius: 14px;
+}
+
+.flex-container-whole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.grid-button{
+    background-color: #e6b4b4;
+    padding: 8px;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 20px;
+}
+
+
+
+.change-color{
+    background-color: aqua;
+}
+
+
