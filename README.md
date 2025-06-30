@@ -14,19 +14,23 @@ A fun, browser-based **Etch‑A‑Sketch** clone—part of the curriculum from [
 ---
 
 ##  Getting Started
+### Access the website 
 
-### 1. Clone the repo
+`https://stuff1do.github.io/super-duper-guacamole/`
+### OR 
+
+###  Clone the repo
 
 ```bash
 git clone https://github.com/Stuff1Do/super-duper-guacamole.git
 cd super-duper-guacamole
 ```
 
-### 2. Open in browser
+### 1. Open in browser
 
 Simply open `index.html` in your preferred web browser.
 
-### 3. Start drawing
+### 2. Start drawing
 
 Use the on-screen controls:
 - **Color picker** to choose colors.
